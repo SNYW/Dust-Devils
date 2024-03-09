@@ -29,11 +29,10 @@ public class VehicleSpriteRotation : MonoBehaviour
 
     private void SlerpTowards(Vector3 target)
     {
-        float desiredAngle = target.z >= transform.position.z ? -maxAngle : maxAngle;
-
-        var dist = Mathf.Clamp01(Vector3.Distance(transform.position, target));
-
-        Quaternion targetRotation = Quaternion.Euler(0, 90+desiredAngle*dist, 0);
+        var angle = Mathf.Clamp( maxAngle * _agent.remainingDistance, 0, maxAngle);
+        var desiredAngle = target.z >= transform.position.z ? -angle : angle;
+        
+        Quaternion targetRotation = Quaternion.Euler(0, 90+desiredAngle, 0);
 
         spriteParentTransform.rotation = Quaternion.Slerp(spriteParentTransform.rotation, targetRotation,
             rotationSpeed * Time.deltaTime);

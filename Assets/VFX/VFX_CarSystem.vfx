@@ -107,22 +107,10 @@ MonoBehaviour:
     - model: {fileID: 8926484042661618873}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661618910}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661618912}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661618917}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661618919}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661618921}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661618926}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661618931}
@@ -192,8 +180,8 @@ MonoBehaviour:
       serializedVersion: 2
       x: 4575
       y: -504
-      width: 2440
-      height: 3346
+      width: 1418
+      height: 3154
     contents:
     - model: {fileID: 8926484042661619139}
       id: 0
@@ -229,9 +217,6 @@ MonoBehaviour:
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661619444}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661619446}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661619448}
@@ -302,8 +287,8 @@ MonoBehaviour:
   - title: TRAIL FRONT
     position:
       serializedVersion: 2
-      x: 2972
-      y: 2692
+      x: 2963
+      y: 3171
       width: 1434
       height: 2270
     contents:
@@ -343,7 +328,7 @@ MonoBehaviour:
   - name: Transforms
     collapsed: 1
   - name: Main Sprite
-    collapsed: 0
+    collapsed: 1
   - name: Trail 1
     collapsed: 0
   - name: Trail 2
@@ -353,7 +338,7 @@ MonoBehaviour:
     x: -1999
     y: -2464
     width: 7992
-    height: 7832
+    height: 7905
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -419,7 +404,6 @@ MonoBehaviour:
   - {fileID: 8926484042661618926}
   - {fileID: 8926484042661618931}
   - {fileID: 8926484042661618936}
-  - {fileID: 8926484042661618938}
   - {fileID: 8926484042661618940}
   - {fileID: 8926484042661618945}
   - {fileID: 8926484042661618951}
@@ -454,7 +438,6 @@ MonoBehaviour:
   - {fileID: 8926484042661619434}
   - {fileID: 8926484042661619442}
   - {fileID: 8926484042661619444}
-  - {fileID: 8926484042661619446}
   - {fileID: 8926484042661619448}
   - {fileID: 8926484042661619453}
   - {fileID: 8926484042661619458}
@@ -478,20 +461,6 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_UIInfos: {fileID: 114340500867371532}
   m_ParameterInfo:
-  - name: sparkSize
-    path: sparkSize
-    tooltip: 
-    sheetType: m_Int
-    realType: Int32
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 10
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: wheelTrackOffset
     path: wheelTrackOffset
     tooltip: 
@@ -516,20 +485,6 @@ MonoBehaviour:
         m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
       m_SerializableObject: 12
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: sparkGravity
-    path: sparkGravity
-    tooltip: 
-    sheetType: m_Float
-    realType: Single
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: -30
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1660,7 +1615,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616185}
   m_ExposedName: indicatorCol2
   m_Exposed: 1
-  m_Order: 33
+  m_Order: 32
   m_Category: Indicator
   m_Min:
     m_Type:
@@ -1876,7 +1831,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616269}
   m_ExposedName: toggleIndicator
   m_Exposed: 1
-  m_Order: 20
+  m_Order: 24
   m_Category: Indicator
   m_Min:
     m_Type:
@@ -2116,7 +2071,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616426}
   m_ExposedName: indicatorPulseFrequency
   m_Exposed: 1
-  m_Order: 34
+  m_Order: 33
   m_Category: Indicator
   m_Min:
     m_Type:
@@ -2196,7 +2151,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616428}
   m_ExposedName: indicatorPulseRange
   m_Exposed: 1
-  m_Order: 35
+  m_Order: 34
   m_Category: Indicator
   m_Min:
     m_Type:
@@ -6548,7 +6503,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618194}
   m_ExposedName: smokeVelocityMin
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 7
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -6730,7 +6685,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618199}
   m_ExposedName: smokeVelocityMax
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 9
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -6912,7 +6867,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618206}
   m_ExposedName: smokeSize
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 10
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -7060,7 +7015,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618212}
   m_ExposedName: smokeLifetime
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 12
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -7212,7 +7167,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618216}
   m_ExposedName: smokeSizeCurve
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 14
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -9947,9 +9902,7 @@ MonoBehaviour:
       m_SerializableType: UnityEditor.VFX.GPUEvent, Unity.VisualEffectGraph.Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Direction: 1
-  m_LinkedSlots:
-  - {fileID: 8926484042661618741}
-  - {fileID: 8926484042661620353}
+  m_LinkedSlots: []
 --- !u!114 &8926484042661618699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11341,8 +11294,7 @@ MonoBehaviour:
       m_SerializableType: UnityEditor.VFX.GPUEvent, Unity.VisualEffectGraph.Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Direction: 0
-  m_LinkedSlots:
-  - {fileID: 8926484042661618698}
+  m_LinkedSlots: []
 --- !u!114 &8926484042661618742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15698,12 +15650,7 @@ MonoBehaviour:
   m_EnumValues: []
   m_ValueFilter: 0
   m_Tooltip: 
-  m_Nodes:
-  - m_Id: 0
-    linkedSlots: []
-    position: {x: 1081, y: 29}
-    expandedSlots: []
-    expanded: 0
+  m_Nodes: []
 --- !u!114 &8926484042661618911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15761,7 +15708,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618913}
   m_ExposedName: startPos
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 11
   m_Category: Transforms
   m_Min:
     m_Type:
@@ -15775,12 +15722,7 @@ MonoBehaviour:
   m_EnumValues: []
   m_ValueFilter: 0
   m_Tooltip: 
-  m_Nodes:
-  - m_Id: 0
-    linkedSlots: []
-    position: {x: 1045, y: -76}
-    expandedSlots: []
-    expanded: 0
+  m_Nodes: []
 --- !u!114 &8926484042661618913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15940,7 +15882,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618918}
   m_ExposedName: startLifetime
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 20
   m_Category: Main Sprite
   m_Min:
     m_Type:
@@ -16020,7 +15962,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618920}
   m_ExposedName: spriteQuantity
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 17
   m_Category: Main Sprite
   m_Min:
     m_Type:
@@ -16100,7 +16042,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618922}
   m_ExposedName: velocityMin
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 18
   m_Category: Transforms
   m_Min:
     m_Type:
@@ -16114,12 +16056,7 @@ MonoBehaviour:
   m_EnumValues: []
   m_ValueFilter: 0
   m_Tooltip: "\t\t\t\t\t\t"
-  m_Nodes:
-  - m_Id: 0
-    linkedSlots: []
-    position: {x: 1081, y: 120}
-    expandedSlots: []
-    expanded: 0
+  m_Nodes: []
 --- !u!114 &8926484042661618922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16279,7 +16216,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618927}
   m_ExposedName: velocityMax
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 21
   m_Category: Transforms
   m_Min:
     m_Type:
@@ -16293,12 +16230,7 @@ MonoBehaviour:
   m_EnumValues: []
   m_ValueFilter: 0
   m_Tooltip: 
-  m_Nodes:
-  - m_Id: 0
-    linkedSlots: []
-    position: {x: 1084, y: 171}
-    expandedSlots: []
-    expanded: 0
+  m_Nodes: []
 --- !u!114 &8926484042661618927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16458,7 +16390,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618932}
   m_ExposedName: spriteScale
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 13
   m_Category: Main Sprite
   m_Min:
     m_Type:
@@ -16640,7 +16572,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618937}
   m_ExposedName: spriteColourGradient
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: Main Sprite
   m_Min:
     m_Type:
@@ -16697,78 +16629,6 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661618710}
---- !u!114 &8926484042661618938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 330e0fca1717dde4aaa144f48232aa64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 114350483966674976}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_InputSlots: []
-  m_OutputSlots:
-  - {fileID: 8926484042661618939}
-  m_ExposedName: sparkSize
-  m_Exposed: 1
-  m_Order: 32
-  m_Category: 
-  m_Min:
-    m_Type:
-      m_SerializableType: 
-    m_SerializableObject: 
-  m_Max:
-    m_Type:
-      m_SerializableType: 
-    m_SerializableObject: 
-  m_IsOutput: 0
-  m_EnumValues: []
-  m_ValueFilter: 0
-  m_Tooltip: 
-  m_Nodes: []
---- !u!114 &8926484042661618939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d246e354feb93041a837a9ef59437cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661618939}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661618938}
-    m_Value:
-      m_Type:
-        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 10
-    m_Space: 2147483647
-  m_Property:
-    name: o
-    m_serializedType:
-      m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 1
-  m_LinkedSlots: []
 --- !u!114 &8926484042661618940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16792,7 +16652,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618941}
   m_ExposedName: worldPos
   m_Exposed: 1
-  m_Order: 19
+  m_Order: 23
   m_Category: Transforms
   m_Min:
     m_Type:
@@ -16968,7 +16828,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618946}
   m_ExposedName: startOffset
   m_Exposed: 1
-  m_Order: 22
+  m_Order: 25
   m_Category: Transforms
   m_Min:
     m_Type:
@@ -17040,7 +16900,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618952}
   m_ExposedName: trailScaleCurve
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 5
   m_Category: Trail 1
   m_Min:
     m_Type:
@@ -17120,7 +16980,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618954}
   m_ExposedName: trailScale
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 15
   m_Category: Trail 1
   m_Min:
     m_Type:
@@ -17153,7 +17013,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661618954}
       inputSlot: {fileID: 8926484042661620406}
-    position: {x: 2997, y: 4449}
+    position: {x: 2988, y: 4928}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661618954
@@ -17216,7 +17076,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618956}
   m_ExposedName: trail2Gradient
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 8
   m_Category: Trail 2
   m_Min:
     m_Type:
@@ -17242,7 +17102,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661618956}
       inputSlot: {fileID: 8926484042661620400}
-    position: {x: 3120, y: 4743}
+    position: {x: 3111, y: 5222}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661618956
@@ -17304,7 +17164,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618958}
   m_ExposedName: trail2Length
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 16
   m_Category: Trail 2
   m_Min:
     m_Type:
@@ -17330,7 +17190,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661618958}
       inputSlot: {fileID: 8926484042661620341}
-    position: {x: 3197, y: 3358}
+    position: {x: 3188, y: 3837}
     expandedSlots: []
     expanded: 1
 --- !u!114 &8926484042661618958
@@ -17392,7 +17252,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618960}
   m_ExposedName: trail1Gradient
   m_Exposed: 1
-  m_Order: 13
+  m_Order: 19
   m_Category: Trail 1
   m_Min:
     m_Type:
@@ -17472,7 +17332,7 @@ MonoBehaviour:
   - {fileID: 8926484042661618962}
   m_ExposedName: trail1Length
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 22
   m_Category: Trail 1
   m_Min:
     m_Type:
@@ -18923,14 +18783,14 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661619102}
   m_ExposedName: wheelTrackOffset
   m_Exposed: 1
-  m_Order: 36
+  m_Order: 35
   m_Category: 
   m_Min:
     m_Type:
@@ -26663,7 +26523,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 5013, y: 865}
+  m_UIPosition: {x: 5071, y: 1055}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -27140,7 +27000,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 5463, y: 2322}
+  m_UIPosition: {x: 5364, y: 2452}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -27235,7 +27095,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 5463, y: 2237}
+  m_UIPosition: {x: 5364, y: 2367}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -27802,7 +27662,7 @@ MonoBehaviour:
   - {fileID: 8926484042661619445}
   m_ExposedName: SparkCount
   m_Exposed: 1
-  m_Order: 38
+  m_Order: 36
   m_Category: 
   m_Min:
     m_Type:
@@ -27859,83 +27719,6 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661619146}
---- !u!114 &8926484042661619446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 330e0fca1717dde4aaa144f48232aa64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 114350483966674976}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_InputSlots: []
-  m_OutputSlots:
-  - {fileID: 8926484042661619447}
-  m_ExposedName: sparkGravity
-  m_Exposed: 1
-  m_Order: 39
-  m_Category: 
-  m_Min:
-    m_Type:
-      m_SerializableType: 
-    m_SerializableObject: 
-  m_Max:
-    m_Type:
-      m_SerializableType: 
-    m_SerializableObject: 
-  m_IsOutput: 0
-  m_EnumValues: []
-  m_ValueFilter: 0
-  m_Tooltip: 
-  m_Nodes:
-  - m_Id: 0
-    linkedSlots: []
-    position: {x: 5138, y: 1278}
-    expandedSlots: []
-    expanded: 0
---- !u!114 &8926484042661619447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661619447}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661619446}
-    m_Value:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: -30
-    m_Space: 2147483647
-  m_Property:
-    name: o
-    m_serializedType:
-      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 1
-  m_LinkedSlots: []
 --- !u!114 &8926484042661619448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27959,7 +27742,7 @@ MonoBehaviour:
   - {fileID: 8926484042661619449}
   m_ExposedName: sparkVelocityMin
   m_Exposed: 1
-  m_Order: 40
+  m_Order: 37
   m_Category: 
   m_Min:
     m_Type:
@@ -28141,7 +27924,7 @@ MonoBehaviour:
   - {fileID: 8926484042661619454}
   m_ExposedName: sparkVelocityMax
   m_Exposed: 1
-  m_Order: 41
+  m_Order: 38
   m_Category: 
   m_Min:
     m_Type:
@@ -28323,7 +28106,7 @@ MonoBehaviour:
   - {fileID: 8926484042661619459}
   m_ExposedName: smokeTurbulence 1
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 6
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -28505,7 +28288,7 @@ MonoBehaviour:
   - {fileID: 8926484042661619464}
   m_ExposedName: smokeGradient 1
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 4
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -28585,7 +28368,7 @@ MonoBehaviour:
   - {fileID: 8926484042661619478}
   m_ExposedName: smokeSize 1
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: Smoke
   m_Min:
     m_Type:
@@ -33179,7 +32962,7 @@ MonoBehaviour:
   - {fileID: 8926484042661620340}
   - {fileID: 8926484042661620343}
   - {fileID: 8926484042661620435}
-  m_UIPosition: {x: 3417, y: 3009}
+  m_UIPosition: {x: 3408, y: 3488}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -33998,7 +33781,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3430, y: 2751}
+  m_UIPosition: {x: 3421, y: 3230}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -34045,8 +33828,7 @@ MonoBehaviour:
       m_SerializableType: UnityEditor.VFX.GPUEvent, Unity.VisualEffectGraph.Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Direction: 0
-  m_LinkedSlots:
-  - {fileID: 8926484042661618698}
+  m_LinkedSlots: []
 --- !u!114 &8926484042661620354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34085,7 +33867,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661620357}
   - {fileID: 8926484042661620363}
-  m_UIPosition: {x: 3417, y: 3682}
+  m_UIPosition: {x: 3408, y: 4161}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -35033,7 +34815,7 @@ MonoBehaviour:
   - {fileID: 8926484042661620390}
   - {fileID: 8926484042661620392}
   - {fileID: 8926484042661620399}
-  m_UIPosition: {x: 3417, y: 4228}
+  m_UIPosition: {x: 3408, y: 4707}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -35633,7 +35415,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3957, y: 4226}
+  m_UIPosition: {x: 3948, y: 4705}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -35745,7 +35527,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3172, y: 4485}
+  m_UIPosition: {x: 3163, y: 4964}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:

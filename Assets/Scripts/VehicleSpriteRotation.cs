@@ -15,8 +15,8 @@ public class VehicleSpriteRotation : MonoBehaviour
 
     void Update()
     {
-        if (_agent == null || !_agent.hasPath) RotateToDefault();
-        else SlerpTowards(_agent.destination);
+        /*if (_agent == null || !_agent.hasPath) RotateToDefault();
+        else SlerpTowards(_agent.destination);*/
     }
 
     private void RotateToDefault()

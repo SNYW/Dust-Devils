@@ -63,21 +63,21 @@ Material:
     - _UVScale: 0.01
     - _blendCutoff: -104.4
     - _blendOpacity: -10
-    - _blendRange: 1256.64
-    - _blendRangeDebug: 144
+    - _blendRange: 1186.4
+    - _blendRangeDebug: 69
     - _blendSharpness: -109.96
-    - _blendSmoothing: 0
+    - _blendSmoothing: 83.2
     - _blendSmoothness: 166.05
-    - _dissolveAmount: 0.122
-    - _edgeClippingAmount: 11.2
-    - _islandSize: 20.55
-    - _mainScrollSpeed: -0.29
+    - _dissolveAmount: 0.414
+    - _edgeClippingAmount: 11.9
+    - _islandSize: -3
+    - _mainScrollSpeed: -0.5
     - _sineFrequency: -6.04
     - _sineRotation: 20.79
     m_Colors:
     - _blendAdjust: {r: -1.6, g: 11.46, b: 0, a: 0}
     - _colour2Tint: {r: 0.6415094, g: 0.54165184, b: 0.54375875, a: 0}
     - _colourTint: {r: 0.5647059, g: 0.4470588, b: 0.31372547, a: 0}
-    - _tex1Tiling: {r: 55, g: 55, b: 0, a: 0}
-    - _tex2Tiling: {r: 55, g: 55, b: 0, a: 0}
+    - _tex1Tiling: {r: 15, g: 15, b: 0, a: 0}
+    - _tex2Tiling: {r: 15, g: 15, b: 0, a: 0}
   m_BuildTextureStacks: []

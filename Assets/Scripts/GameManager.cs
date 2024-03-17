@@ -1,15 +1,16 @@
 using System;
 using ObjectPooling;
 using SystemEvents;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public LayerMask mouseMask;
+    public LayerMask unitPlacementMask;
+    
     public Vehicle test;
     void Awake()
     {
-        test = FindObjectOfType<Vehicle>();
         SystemEventManager.Init();
         ObjectPoolManager.InitPools();
     }
@@ -26,9 +27,15 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(1) && MouseManager.GetMousePositionOnNavmesh(mouseMask, test.transform.position, out var pos ))
+        if (Input.GetMouseButtonDown(1))
         {
-            test.SetMoveGoal(pos);
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero, unitPlacementMask);
+          
+            if (hit.collider != null)
+            {
+                Instantiate(test, hit.point, quaternion.identity).Init(hit.point);
+            }
         }
     }
 }

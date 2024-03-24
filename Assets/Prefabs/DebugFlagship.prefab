@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4115888015188233998}
+  - component: {fileID: 6025339921247335712}
+  - component: {fileID: 206806046032810971}
   m_Layer: 0
   m_Name: DebugFlagship
   m_TagString: Untagged
@@ -33,6 +35,37 @@ Transform:
   - {fileID: 509225710676681035}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6025339921247335712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265358265089516572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17ec99f3d4b00b4fb1c07530be894b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &206806046032810971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265358265089516572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d48b51575a9e644786fa79d7c097c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selfInit: 1
+  moveSpeed: 0.5
+  rotationSpeed: 5
+  rotateAmount: 3
+  _minMaxWiggleTime: {x: 0.2, y: 1}
+  _minMaxYWiggleAmount: {x: 0.5, y: 1}
+  _minMaxXWiggleAmount: {x: 0.1, y: 0.1}
 --- !u!1 &8994087075496765522
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +107,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8994087075496765522}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -109,7 +142,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.21097255, a: 0.05490196}
+  m_Color: {r: 0, g: 1, b: 0.21097255, a: 0.011764706}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -246,35 +279,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7550875303747347180, guid: 130b689436c2f1540967b4f04629404d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6862881716286949477}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 130b689436c2f1540967b4f04629404d, type: 3}
---- !u!1 &795793740957126784 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7550875303747347180, guid: 130b689436c2f1540967b4f04629404d, type: 3}
-  m_PrefabInstance: {fileID: 7188065126159479404}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6862881716286949477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795793740957126784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e17ec99f3d4b00b4fb1c07530be894b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selfInit: 1
-  moveSpeed: 0.5
-  rotationSpeed: 5
-  rotateAmount: 3
-  _minMaxWiggleTime: {x: 0.2, y: 1}
-  _minMaxYWiggleAmount: {x: 0.5, y: 1}
-  _minMaxXWiggleAmount: {x: 0.1, y: 0.1}
 --- !u!4 &4276224971015270435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6384152439194305103, guid: 130b689436c2f1540967b4f04629404d, type: 3}

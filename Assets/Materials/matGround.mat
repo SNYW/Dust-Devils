@@ -71,7 +71,7 @@ Material:
     - _dissolveAmount: 0.414
     - _edgeClippingAmount: 11.9
     - _islandSize: -3
-    - _mainScrollSpeed: -0.5
+    - _mainScrollSpeed: 0
     - _sineFrequency: -6.04
     - _sineRotation: 20.79
     m_Colors:

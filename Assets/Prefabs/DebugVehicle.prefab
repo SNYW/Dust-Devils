@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 13124947151308303}
   - component: {fileID: 1578735386440507999}
+  - component: {fileID: 5473239233335211003}
   m_Layer: 0
   m_Name: DebugVehicle
   m_TagString: Untagged
@@ -45,8 +46,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17ec99f3d4b00b4fb1c07530be894b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5473239233335211003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5075701592098152808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d48b51575a9e644786fa79d7c097c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selfInit: 0
   moveSpeed: 4
-  rotationSpeed: 5
+  rotationSpeed: 4
   rotateAmount: 10
   _minMaxWiggleTime: {x: 0.2, y: 1}
   _minMaxYWiggleAmount: {x: 0.5, y: 1.2}

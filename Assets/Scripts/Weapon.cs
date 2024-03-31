@@ -1,15 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
     public Vector2 targetPosition;
     public float rotationSpeed = 5f;
+    public Vehicle target;
 
     void Update()
     {
-        targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if (target == null)
+        {
+            Quaternion targetRotation = Quaternion.AngleAxis(-90, Vector3.forward); 
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            return;
+        }
+        
+        targetPosition = target.transform.position;
         
         Vector2 direction = targetPosition - (Vector2)transform.position;
 

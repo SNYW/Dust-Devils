@@ -5907,6 +5907,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae71ee0e96f96f4693c36827492ae4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnAreas:
+  - {fileID: 2034943494}
+  - {fileID: 1291007861}
+  spawnableEnemies:
+  - {fileID: 5075701592098152808, guid: 3ae0aeccdaa03b84e931ca82331d43cb, type: 3}
+  spawnDelay: 1
 --- !u!1 &863297018
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,11 +7,7 @@ namespace SystemEvents
     {
         public enum SystemEventType
         {
-            SpellSelected,
-            SpellDeselected,
-            SpellCast,
-            EnemyDamaged,
-            PlayerDamaged,
+            EnemySpawned,
             GameEnd,
             GameStart
         }

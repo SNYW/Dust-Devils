@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1578735386440507999}
   - component: {fileID: 5473239233335211003}
   m_Layer: 0
-  m_Name: DebugVehicle
+  m_Name: DebugEnemyVehicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17ec99f3d4b00b4fb1c07530be894b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 99999
+  detectionRange: 0
   targetOverlap:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!114 &5473239233335211003
 MonoBehaviour:
   m_ObjectHideFlags: 0
